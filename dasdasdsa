@@ -1,5 +1,0 @@
-@echo off
-:loop
-REM Your command goes here
-cmd /c taskkill /f /IM mmc.exe
-goto loop
